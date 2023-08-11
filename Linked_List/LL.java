@@ -39,7 +39,7 @@ public class LL {
             return;
         }
 
-        Node temp = head; // crete temporary node for only reaching for thr given position.
+        Node temp = head; //create a temporary node for only reaching for the given position.
         for(int i =1;i<pos;i++){
             temp = temp.next;
         }
